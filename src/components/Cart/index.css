@@ -34,6 +34,9 @@
 }
 
 .empty-cart-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   max-width: 560px;
   border: 1px solid #eadff8;
@@ -41,6 +44,7 @@
   background: linear-gradient(135deg, #ffffff 0%, #f7f1fc 100%);
   padding: 28px;
   box-shadow: 0 14px 30px rgba(109, 29, 156, 0.10);
+  margin: 0 auto; /* centers horizontally */
 }
 
 .empty-cart-message {
