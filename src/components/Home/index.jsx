@@ -3,7 +3,7 @@ import {Link} from 'react-router'
 import Header from '../Header'
 import PrimeDealsSection from '../PrimeDealsSection'
 import AllProductsSection from '../AllProductsSection'
-
+//committing example
 import './index.css'
 
 const Home = () => {
